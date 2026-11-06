@@ -1,0 +1,36 @@
+# Build output
+target/
+obj/
+bin/
+
+# Local Functions settings (may contain connection strings / secrets)
+local.settings.json
+**/local.settings.json
+
+# OpenTelemetry Java agent: downloaded locally, not committed (see README)
+libs/*.jar
+
+# Personal session notes
+nexttime.md
+
+# IDE / tooling
+.idea
+*.iml
+.claude/
+.mcp.json
+
+# Stray shell/user dotfiles that should never be in this repo
+.bash_profile
+.bashrc
+.profile
+.zprofile
+.zshrc
+.gitconfig
+.gitmodules
+.ripgreprc
+
+# OS
+.DS_Store
+Thumbs.db
+
+.vscode/
